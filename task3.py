@@ -18,7 +18,7 @@ while True:
         y = int(y)
         break
     else:
-        print("Please enter a valid input for y")
+        print("Please enter a valid input for y.")
 
 # Call the divide() function to split the string into substrings
 substrings = divide(x, y)
