@@ -1,3 +1,5 @@
+### task3
+
 # Define the divide() and chars() functions
 def divide(x, y):
     return [x[a:a+y] for a in range(0, len(x), y)]
