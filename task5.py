@@ -1,7 +1,6 @@
-### Task 5
+# Task 5
 
 
-x = 'aaavvvfdff'
 
 def text_compression(x):
     compressed_text = ""
@@ -14,7 +13,14 @@ def text_compression(x):
             compressed_text = compressed_text +x[i] + str(counter) #If not, then we add the current letter and the counter variable to the compressed_text variable.
             counter=1 # Update the counter for the next count
     compressed_text = compressed_text +x[i] + str(counter) #We write down the last results of the calculation, because the loop did not do this
-    
     return compressed_text
 
+while 1:
+    x = input("Write text: ")
+    if len(x) == 0:
+        print("Field must not be empty")
+        break
+    else:
+        break
+        
 text_compression(x)
